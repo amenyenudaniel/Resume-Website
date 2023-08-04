@@ -1,5 +1,3 @@
-## Resume Website
-
 # Resume Website
 
 ![Alt text](resume-web.png)
