@@ -1,0 +1,13 @@
+.circle_content {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 20px solid #ffd4b0;
+}
+
+.traits {
+  overflow: hidden;
+}
