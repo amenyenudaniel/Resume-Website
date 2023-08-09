@@ -1,19 +1,19 @@
 import React from "react";
-import me from "../../me.jpg";
+import me from "../../med.jpg";
 import { CgProfile } from "react-icons/cg";
 const Header = () => {
   return (
     <div className="header relative" id="personal">
-      <div className="header__title ">
+      <div className="header__title">
         <h1>Daniel Amenyenu</h1>
       </div>
 
       <div className="personal__info">
-        <div className="my__image">
+        <div className="my__image mr-[2rem]">
           <img src={me} alt="My picture" />
         </div>
 
-        <div className="personal__first">
+        <div className="personal__first mr-[2rem]">
           <div className="personal__content">
             <h5>Date Of birth</h5>
             <p>13/12/2004</p>
@@ -38,11 +38,8 @@ const Header = () => {
           </div>
           <div className="personal__content">
             <h5>Web</h5>
-            <a
-              href="google.com"
-              onClick={() => window.open("instagram.com", "_black")}
-            >
-              DanielAmenyenu.com
+            <a href="https://danielamenyenu.com" target="_blank">
+              danielamenyenu.com
             </a>
           </div>
         </div>

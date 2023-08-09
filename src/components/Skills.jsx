@@ -30,10 +30,35 @@ const Skills = () => {
               </div>
             </div>
 
+            <div className="skill__container">
+              <p>React JS</p>
+              <div className="skill__box relative">
+                <div className="skill__boxIn"></div>
+              </div>
+            </div>
             <div className="skill__container1">
               <p>Tailwind CSS</p>
               <div className="skill__box1 relative">
                 <div className="skill__boxIn1"></div>
+              </div>
+            </div>
+            <div className="skill__container3">
+              <p>Next JS</p>
+              <div className="skill__box3 relative">
+                <div className="skill__boxIn3"></div>
+              </div>
+            </div>
+
+            <div className="skill__container3">
+              <p>Typescript</p>
+              <div className="skill__box3 relative">
+                <div className="skill__boxIn3"></div>
+              </div>
+            </div>
+            <div className="skill__container3">
+              <p>Restful API</p>
+              <div className="skill__box3 relative">
+                <div className="skill__boxIn3"></div>
               </div>
             </div>
 
@@ -44,19 +69,6 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="skill__container">
-              <p>React JS</p>
-              <div className="skill__box relative">
-                <div className="skill__boxIn"></div>
-              </div>
-            </div>
-
-            <div className="skill__container3">
-              <p>Next JS</p>
-              <div className="skill__box3 relative">
-                <div className="skill__boxIn3"></div>
-              </div>
-            </div>
             <div className="skill__container4">
               <p>Test/Jest</p>
               <div className="skill__box4 relative">

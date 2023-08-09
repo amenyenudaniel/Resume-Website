@@ -1,4 +1,5 @@
 import Cert from "../../cert.png";
+import Danny from "../../Danny-Resume.pdf";
 import CertificateCoursera from "../../FinalCertificate.pdf";
 import { PiCertificateFill } from "react-icons/pi";
 const Certificate = () => {
@@ -15,10 +16,10 @@ const Certificate = () => {
         <div className="flex flex-wrap gap-5 justify-center">
           <a href={CertificateCoursera} download>
             <button type="button" className="btn__download">
-              Download Certificate
+              View Certificate
             </button>
           </a>
-          <a href={CertificateCoursera} download>
+          <a href={Danny} download>
             <button type="button" className="btn__download">
               Download Resume
             </button>
